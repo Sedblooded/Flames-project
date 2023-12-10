@@ -20,7 +20,7 @@ for i in boy:                                     #removing all the matched char
         girl.pop(girl.index(i))
 trans=boy + girl                                  #i dont really mean it, it is just fun and games
 num=len(trans)   #list of unmatched characters     
-time.sleep(1)                             #added time for that extra bit of suspense
+time.sleep(2)                             #added time for that extra bit of suspense
 flames=['F','L','A','M','E','S']
 a=0                               #stores the index of the previously removed character
 for love in range(6,1,-1):
